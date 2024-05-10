@@ -1,0 +1,24 @@
+#root {
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    background: rgba(0, 0, 0, 0) !important; /* 设置背景为透明 */
+    overflow: hidden; /* 避免滚动条 */
+    -webkit-app-region: drag;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-size: 24px;
+    color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .title {
+    color: white;
+    font-size: 20px;
+}
